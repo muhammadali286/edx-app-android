@@ -313,6 +313,7 @@ if (isMicrosoftEnabled) {
 android {
     namespace APPLICATION_ID
     compileSdkVersion COMPILE_SDK_VERSION
+    buildToolsVersion "33.0.1"
 
     buildFeatures {
         viewBinding true
